@@ -1,0 +1,49 @@
+/*ex01*/
+
+section {
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+}
+
+/*ex01.2*/
+
+section:first-child h4 {
+    color: blue;
+}
+
+/*ex02*/
+
+section:nth-child(2) {
+    border-bottom: 5px solid red;
+}
+
+/*ex03*/
+
+h3, ul {
+    color: red;
+}
+
+/*ex04*/
+
+ul > li > a {
+    font-size: 25px;
+}
+
+/*ex05*/
+
+h3 + span {
+    color: blue;
+}
+
+/*ex06*/
+
+img[src] {
+    border: 2px solid black;
+    border-radius: 70px;
+}
+
+/*ex07*/
+
+section:nth-child(7) p:hover {
+    color: green;
+}

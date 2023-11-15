@@ -1,0 +1,25 @@
+h1 {
+    color: rouge;
+}
+
+h2 {
+    color: blue;
+}
+
+p {
+    font-size: 31px;
+    font-weight: bold;
+    background-color: red;
+}
+
+#sous-titreSurligné {
+    text-decoration: underline;
+}
+
+.listeSemaine {
+    font-style: italic;
+}
+
+.listeTaches {
+    font-style: italic;
+}
