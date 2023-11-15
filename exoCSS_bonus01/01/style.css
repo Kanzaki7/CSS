@@ -1,0 +1,27 @@
+/* exo 01*/
+
+#div1 div {
+    width: 70px;
+    height: 70px;
+    background-color: black;
+}
+
+/* exo 02*/
+button:hover {
+    background-color: yellow;
+    box-shadow: 
+        0 0 50px yellow;
+}
+
+button:active {
+    background-color: red;
+}
+
+/* exo 03*/
+
+img {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    float: left;
+}
