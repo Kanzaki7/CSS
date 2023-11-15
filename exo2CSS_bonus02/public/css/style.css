@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 1200px;
+    width: 1200px;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    display: inline-grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+
+div:nth-child(even):hover {
+    background-color: red;
+}
+
+div:nth-child(odd):hover {
+    background-color: black;
+}

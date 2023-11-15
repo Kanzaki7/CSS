@@ -7,7 +7,7 @@ section {
 
 /*ex01.2*/
 
-section:first-child h4 {
+section:first-child h4:nth-of-type(2) {
     color: blue;
 }
 
@@ -19,25 +19,25 @@ section:nth-child(2) {
 
 /*ex03*/
 
-h3, ul {
+section:nth-child(3) h3, section:nth-child(3) ul {
     color: red;
 }
 
 /*ex04*/
 
-ul > li > a {
+section:nth-child(4) ul > li > a {
     font-size: 25px;
 }
 
 /*ex05*/
 
-h3 + span {
+section:nth-child(5) h3 + span {
     color: blue;
 }
 
 /*ex06*/
 
-img[src] {
+img[alt=tartine] {
     border: 2px solid black;
     border-radius: 70px;
 }
