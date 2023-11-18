@@ -1,0 +1,24 @@
+/* exo02 */
+
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+section div {
+    height: 50px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+div:nth-of-type(4) {
+    flex-grow: 2;
+}

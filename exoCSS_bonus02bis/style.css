@@ -1,0 +1,98 @@
+body {
+    height: 100%;
+}
+
+table {
+    width: 100%;
+    height: auto;
+}
+
+td  {
+    height: 100px;
+    width: 100px;
+}
+
+.row1 td:nth-child(even):hover {
+    background-color: red;
+}
+
+.row1 td:nth-child(odd):hover {
+    background-color: black;
+}
+.row2 td:nth-child(even):hover {
+    background-color: black;
+}
+
+.row2 td:nth-child(odd):hover {
+    background-color: red;
+}
+.row3 td:nth-child(even):hover {
+    background-color: red;
+}
+
+.row3 td:nth-child(odd):hover {
+    background-color: black;
+}
+.row4 td:nth-child(even):hover {
+    background-color: black;
+}
+
+.row4 td:nth-child(odd):hover {
+    background-color: red;
+}
+.row5 td:nth-child(even):hover {
+    background-color: red;
+}
+
+.row5 td:nth-child(odd):hover {
+    background-color: black;
+}
+.row6 td:nth-child(even):hover {
+    background-color: black;
+}
+
+.row6 td:nth-child(odd):hover {
+    background-color: red;
+}
+.row7 td:nth-child(even):hover {
+    background-color: red;
+}
+
+.row7 td:nth-child(odd):hover {
+    background-color: black;
+}
+.row8 td:nth-child(even):hover {
+    background-color: black;
+}
+
+.row8 td:nth-child(odd):hover {
+    background-color: red;
+}
+.row9 td:nth-child(even):hover {
+    background-color: red;
+}
+
+.row9 td:nth-child(odd):hover {
+    background-color: black;
+}
+.row10 td:nth-child(even):hover {
+    background-color: black;
+}
+
+.row10 td:nth-child(odd):hover {
+    background-color: red;
+}
+.row11 td:nth-child(even):hover {
+    background-color: red;
+}
+
+.row11 td:nth-child(odd):hover {
+    background-color: black;
+}
+.row12 td:nth-child(even):hover {
+    background-color: black;
+}
+
+.row12 td:nth-child(odd):hover {
+    background-color: red;
+}

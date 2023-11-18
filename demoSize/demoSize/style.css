@@ -1,0 +1,33 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    flex-direction: column;
+}
+
+.voisin{
+    height: 150px;
+    width: 150px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cube{
+    background-color: rgb(255, 48, 48);
+    height: 150px;
+    width: 150px;
+    padding:0px;
+    margin: 0px;
+    border: solid rgb(112, 116, 216) 0px;
+}
+
+
+
+button{
+    padding: 5px 15px;
+}
+

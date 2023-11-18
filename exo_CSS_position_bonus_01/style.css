@@ -1,0 +1,23 @@
+.parent {
+    height: 600px;
+    width: 500px;
+    border: 10px dotted blue;
+    background-color: red;
+}
+
+#child1 {
+    width: 100%;
+    height: 33%;
+    background-color: limegreen;
+}
+#child2 {
+    padding: 100px;
+    background-color: blue;
+}
+#child3 {
+    background-color: beige;
+    margin: 25px;
+    margin-left: 20%;
+    height: 80px;
+    width: 300px;
+}
