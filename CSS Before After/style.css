@@ -1,0 +1,91 @@
+/* exo 1*/
+
+h1:first-of-type::before {
+    content: "";
+    position: relative;
+    display: block;
+    background-color: red;
+    top: 45px;
+    left: 0px;
+    width: 0px;
+    height: 5px;
+    /* transition: all 1s; */
+    /* z-index: -1; */
+    /* transform: translateX(-100%); */
+    
+}
+
+h1:first-of-type:hover::before {
+    animation: myanimation 2s ease-out;
+    /* transform: translateX(-50%); */
+    /* background-color: red; */
+}
+
+@keyframes myanimation {
+    to {
+        width: 5%;
+    }
+}
+
+
+
+/* exo 2*/
+
+h1:nth-of-type(2)::before {
+    content: "";
+    position: relative;
+    display: block;
+    background-color: red;
+    top: 45px;
+    left: 30px;
+    width: 0px;
+    height: 5px;
+    /* transition: all 1s; */
+    /* z-index: -1; */
+    /* transform: translateX(-100%); */
+    
+}
+
+
+h1:nth-of-type(2):hover::before {
+    animation: myanimation2 1s ease-out;
+    /* transform: translateX(-50%); */
+    /* background-color: red; */
+}    
+
+
+@keyframes myanimation2 {
+    to {
+        width: -3%;
+    }
+}
+
+
+/* exo 3*/
+
+h1:nth-of-type(3)::before {
+    content: "";
+    position: relative;
+    display: block;
+    background-color: red;
+    top: 45px;
+    left: 0px;
+    width: 0px;
+    height: 5px;
+    /* transition: all 1s; */
+    /* z-index: -1; */
+    /* transform: translateX(-100%); */
+    
+}
+
+h1:nth-of-type(3):hover::before {
+    animation: myanimation3 2s ease-out;
+    /* transform: translateX(-50%); */
+    /* background-color: red; */
+}
+
+@keyframes myanimation3 {
+    to {
+        width: 5%;
+    }
+}
