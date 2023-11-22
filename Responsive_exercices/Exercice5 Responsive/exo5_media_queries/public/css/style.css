@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .square1 {
+        background-color: red;
+        width: 33vh;
+        height: 33vh;
+    }
+    .square2 {
+        background-color: green;
+        width: 33vh;
+        height: 33vh;
+    }
+    .square3 {
+        background-color: orange;
+        width: 33vh;
+        height: 33vh;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    .square1 {
+        background-color: red;
+        width: 50vh;
+        height: 50vh;
+    }
+    .square2 {
+        background-color: green;
+        width: 50vh;
+        height: 50vh;
+    }
+    .square3 {
+        background-color: orange;
+        width: 50vh;
+        height: 50vh;
+    }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+    .square1 {
+        background-color: red;
+        width: 100vw;
+        height: 100vh;
+    }
+    .square2 {
+        background-color: green;
+        width: 100vw;
+        height: 100vh;
+    }
+    .square3 {
+        background-color: orange;
+        width: 100vw;
+        height: 100vh;
+    }
+}

@@ -1,0 +1,114 @@
+nav ul{
+    display:flex;
+    justify-content: space-around; 
+    list-style-type: none;
+}
+
+/* exo1*/
+@media (min-width: 1250px) {
+    ul:nth-of-type(1) li:nth-of-type(1) {
+        color: blue;
+    }
+    ul:nth-of-type(1) li:nth-of-type(2) {
+        color: green;
+    }
+} 
+
+/* exo2 */
+@media (max-width: 1250px) {
+    ul:nth-of-type(2) li:nth-of-type(1) {
+        color: orange;
+    }
+    ul:nth-of-type(2) li:nth-of-type(2) {
+        color: red;
+    }
+}
+
+/* exo3 */
+@media (max-width: 1000px) {
+    ul:nth-of-type(3) li:nth-of-type(1) {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+}
+
+@media (min-width: 1250px) {
+    ul:nth-of-type(3) li:nth-of-type(2) {
+        color: blue;
+        font-style: italic;
+    }
+}
+
+/* exo4 */
+@media (max-width: 800px) {
+    h2:nth-of-type(4) {
+        color: green;
+        border: 1px solid black;
+    }
+}
+
+@media (min-width: 900px) {
+    h2:nth-of-type(4) {
+        color: green;
+        border: 1px solid black;
+    }
+}
+
+/* exo5 */
+@media screen and (min-width: 900px) and (max-width: 1250px) {
+    h2:nth-of-type(5) {
+        color: red;
+        border: 1px solid black;
+    }
+    h2:nth-of-type(5) ul li {
+        color: red;
+        border: 1px solid black;
+    }
+}
+
+/* exo6 */
+#exo6 {
+    background-image: url(../images/pngtree-hand-drawn-flower-plate-illustration-png-image_4566282.jpg);
+    width: 250px;
+    height: 250px;
+    background-image: url(../images/tartine.jpg) cover;
+}
+
+@media (max-width: 900px) {
+    #exo6 {
+        width: 125px;
+        height: 125px;
+    }
+}
+
+/* exo7 */
+@media print {
+    h2 {
+        color: black;
+    }
+
+    #exo6 {
+        display: none;
+    }
+}
+
+
+/* exo8 */ 
+@media screen and (max-width: 576px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul li a:hover {
+        color: orange;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    nav ul {
+        font-size: 25px;
+    }
+    nav ul li a:hover {
+        color: green;
+    }
+}
