@@ -68,10 +68,10 @@ nav ul{
 
 /* exo6 */
 #exo6 {
-    background-image: url(../images/pngtree-hand-drawn-flower-plate-illustration-png-image_4566282.jpg);
     width: 250px;
     height: 250px;
-    background-image: url(../images/tartine.jpg) cover;
+    background-image: url(../images/tartine.jpg);
+    background-size: cover;
 }
 
 @media (max-width: 900px) {
